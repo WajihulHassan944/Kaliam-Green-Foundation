@@ -1,0 +1,66 @@
+#show_hep_data {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+#hep_search_div {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.hep_num {
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+}
+
+.hep_span {
+    display: inline-block;
+}
+
+#hep_search_div input {
+    color: #747474;
+    font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 1px #747474 solid !important;
+    padding-left: 3px;
+}
+
+#hep_search_div .search_button {
+    font: 15px/20px 'PT Sans', Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#show_hep_data body,
+#show_hep_data p,
+#show_hep_data ol,
+#show_hep_data li,
+#show_hep_data legend,
+#show_hep_data div {
+    color: #747474;
+    font: 15px/20px 'PT Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+
+#show_hep_data a,
+#show_hep_data a:visited {
+    color: #669933;
+    text-decoration: underline;
+}
+
+#show_hep_data a:hover,
+#show_hep_data a:active {
+    color: #669933;
+    text-decoration: underline;
+    cursor: pointer !important;
+}
+
+#hep_footer {
+    margin-bottom: 20px;
+}

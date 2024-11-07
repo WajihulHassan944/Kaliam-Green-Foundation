@@ -1,0 +1,53 @@
+/* This CSS resource incorporates links to font software which is the
+   valuable copyrighted property of Type Network, Inc. and/or their
+   suppliers. You may not attempt to copy, install, redistribute,
+   convert, modify or reverse engineer this font software. Please
+   contact Type Network with any questions: www.typenetwork.com */
+
+@font-face {
+    font-family: "Miller Text Rom";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("//fastly-cloud.typenetwork.com/projects/5994/4c3_vdef_emp_755b.woff2?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff2"), url("//fastly-cloud.typenetwork.com/projects/5994/4c3_vdef_emp_755b.woff?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff");
+}
+
+@font-face {
+    font-family: "Miller Text It";
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url("//fastly-cloud.typenetwork.com/projects/5994/4c4_vdef_emp_755c.woff2?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff2"), url("//fastly-cloud.typenetwork.com/projects/5994/4c4_vdef_emp_755c.woff?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff");
+}
+
+@font-face {
+    font-family: "Miller Text Semibold";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("//fastly-cloud.typenetwork.com/projects/5994/c7c_vdef_emp_755d.woff2?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff2"), url("//fastly-cloud.typenetwork.com/projects/5994/c7c_vdef_emp_755d.woff?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff");
+}
+
+@font-face {
+    font-family: "Miller Text Semibold It";
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url("//fastly-cloud.typenetwork.com/projects/5994/c7d_vdef_emp_755e.woff2?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff2"), url("//fastly-cloud.typenetwork.com/projects/5994/c7d_vdef_emp_755e.woff?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff");
+}
+
+@font-face {
+    font-family: "Miller Text Bd";
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    src: url("//fastly-cloud.typenetwork.com/projects/5994/4c5_vdef_emp_755f.woff2?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff2"), url("//fastly-cloud.typenetwork.com/projects/5994/4c5_vdef_emp_755f.woff?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff");
+}
+
+@font-face {
+    font-family: "Miller Text Bd It";
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+    src: url("//fastly-cloud.typenetwork.com/projects/5994/4c6_vdef_emp_7560.woff2?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff2"), url("//fastly-cloud.typenetwork.com/projects/5994/4c6_vdef_emp_7560.woff?aebb26156dd72bb4465071ec6c2d9bf04323139e") format("woff");
+}
