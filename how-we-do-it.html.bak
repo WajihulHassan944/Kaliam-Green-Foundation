@@ -597,6 +597,11 @@
         }
     </style>
     
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+	
 	<style type="text/css" id="wp-custom-css">
         .iframe-container {
             overflow: hidden;
@@ -685,24 +690,24 @@
 					
 				
 				
-				
-				<div class="mobile-menu-custom">
+					<div class="mobile-menu-custom">
     <div class="hamburger-icon" onclick="toggleMenu()">
         <div class="line"></div>
         <div class="line"></div>
         <div class="line"></div>
     </div>
     <div class="menu-items" id="menu-items">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Who we are</a></li>
-            <li><a href="#">How we do it</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#" class="decorDonateBtn">Donate</a></li>
+       <ul>
+            <li><a href="#myhome" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#myabout" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#mywhoweare" onclick="toggleMenu()">Who we are</a></li>
+            <li><a href="how-we-do-it.html" onclick="toggleMenu()">How we do it</a></li>
+            <li><a href="#mycontact" onclick="toggleMenu()">Contact us</a></li>
+            <li><a href="#" class="decorDonateBtn" onclick="toggleMenu()">Donate</a></li>
         </ul>
     </div>
 </div>
+
 
 
 

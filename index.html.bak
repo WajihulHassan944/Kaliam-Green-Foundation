@@ -705,11 +705,11 @@
     </div>
     <div class="menu-items" id="menu-items">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Who we are</a></li>
-            <li><a href="#">How we do it</a></li>
-            <li><a href="#">Contact us</a></li>
+            <li><a href="#myhome">Home</a></li>
+            <li><a href="#myabout">About Us</a></li>
+            <li><a href="#mywhoweare">Who we are</a></li>
+            <li><a href="how-we-do-it.html">How we do it</a></li>
+            <li><a href="#mycontact">Contact us</a></li>
             <li><a href="#" class="decorDonateBtn">Donate</a></li>
         </ul>
     </div>
@@ -1017,9 +1017,9 @@ function toggleMenu() {
                  <section class="spacing-section" style="background-color: transparent" id="anchor-3b2a25d2-b970-41a5-99f5-0b0311584b0d">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
 </section>
-              <section class="main-content gutenberg-editor scroll-offset" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
+              <section class="main-content gutenberg-editor" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
     <div>
-        <div data-type="acf/row-text"><section class="row-text scroll-offset" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
+        <div data-type="acf/row-text"><section class="row-text" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
 <div>
 <div class="header-arrows flex justify-center items-center overflow-hidden ">
 <div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
@@ -1109,7 +1109,7 @@ function toggleMenu() {
 </section>
               <section class="main-content gutenberg-editor" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
     <div>
-        <div data-type="acf/row-text"><section class="row-text scroll-offset" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
+        <div data-type="acf/row-text"><section class="row-text" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
 <div>
 <div class="header-arrows flex justify-center items-center overflow-hidden ">
 <div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
@@ -1150,7 +1150,7 @@ function toggleMenu() {
 
 
 
-        <section class="row-get-involved scroll-offset" id="anchor-4eb56ac4-558d-4c29-ae67-0ea5c9aca50b">
+        <section class="row-get-involved" id="anchor-4eb56ac4-558d-4c29-ae67-0ea5c9aca50b">
                     <div class="bg-af-green py-13 relative overflow-hidden">
                         
 
@@ -1216,10 +1216,10 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
 				
 				
 				
-              <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-b6a19a60-ba5f-4223-8622-0341385013e9">
+              <section class="spacing-section" style="background-color: transparent" id="anchor-b6a19a60-ba5f-4223-8622-0341385013e9">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
 </section>
-              <section class="row-project-teasers scroll-offset" id="anchor-a5a48c19-952a-4a9a-bfe8-57d088e08859">
+              <section class="row-project-teasers" id="anchor-a5a48c19-952a-4a9a-bfe8-57d088e08859">
     <div>
         <div class="header-arrows flex justify-center items-center overflow-hidden ">
 		<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
@@ -1447,7 +1447,7 @@ Event Volunteers
                     </div>
     </div>
 </section>
-<section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-b6a19a60-ba5f-4223-8622-0341385013e9">
+<section class="spacing-section" style="background-color: transparent" id="anchor-b6a19a60-ba5f-4223-8622-0341385013e9">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
 </section>	
 				
