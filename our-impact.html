@@ -999,31 +999,37 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
                         </div>
                     </div>
                 </section>
-                <section class="newsletter-signup"><a name='newsletter'></a>
+				
+								
+				
+				
+				
+                <section class="newsletter-signup" id="mycontact"><a name='newsletter'></a>
                     <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="bg-center bg-cover min-h-257 md:min-h-0" style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/atoms-media-image-landscape@3x.jpg')">
+                        <div class="bg-center bg-cover min-h-257 md:min-h-0" style="background-image: url('d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/atoms-media-image-landscape@3x.jpg')">
 
                         </div>
 
                         <div class="bg-forest-green px-gutter pt-11 pb-13 md:py-15 flex justify-center items-center">
 
                             <div class="w-full max-w-494 josh-js" data-josh-anim-name="fadeIn">
-                                <div class="max-w-458 type-preset-4 font-display font-bold text-white mb-8">
+<form id="newOrderForm">                             
+							 <div class="max-w-458 type-preset-4 font-display font-bold text-white mb-8">
                                     Contact Us
                                 </div>
                                     <div class="flex flex-col md:flex-row items-center gap-x-8 gap-y-8 mt-8">
-                                        <input class="w-full py-15px px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.first_name" placeholder="Your Name" />
-                                        <input class="w-full py-15px px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.last_name" placeholder="Your Email" />
+                                        <input class="w-full py-15px px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.first_name" placeholder="Your Name" id="namess" />
+                                        <input class="w-full py-15px px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.last_name" placeholder="Your Email" id="emailss" />
                                     </div>
                                     <div class="flex flex-col md:flex-row items-center gap-x-8 gap-y-8 mt-8">
-                                        <input class="w-full py-4 px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.email" placeholder="Subject" />
+                                        <input class="w-full py-4 px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.email" placeholder="Subject" id="subjectss" />
                                     </div>
                                     <div class="flex flex-col md:flex-row items-center gap-x-8 gap-y-8 mt-8">
-                                        <textarea class="w-full py-4 px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.email" placeholder="Message" style="height:200px;" /></textarea>
+                                        <textarea class="w-full py-4 px-5 type-preset-7 font-body placeholder-light-gray" type="text" x-model="formData.email" placeholder="Message" id="messageBody" style="height:200px;" /></textarea>
                                     </div>
                                     
 									<div class="flex flex-col md:flex-row items-center gap-x-8 gap-y-8 mt-8">
-                                        <button class="btn btn--af-green-100" type="submit" x-bind:disabled="!formData.email.length" disabled>
+                                        <button class="btn btn--af-green-100" type="submit" >
                             <span x-show="!isSubmitting">Submit</span>
                             <span class="relative" :class="{'block w-85': isSubmitting}" x-show="isSubmitting" x-cloak>&nbsp;
                                 <svg style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
@@ -1042,7 +1048,102 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
                     </div>
                 </section>
               
+
+
+<!-- Add this div for the loading animation -->
+<div id="loadingAnimation" class="loading-container">
+  <div class="loading-spinner"></div>
+</div>
+
+<style>
+
+.loading-container {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  bottom:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}</style>
+
 			  
+
+<script>
+
+var userName = document.getElementById("namess");
+var userEmail = document.getElementById("emailss");
+var userMessage = document.getElementById("messageBody");
+var userSubject = document.getElementById("subjectss");
+var orderFormSubmit = document.getElementById("newOrderForm");
+var loadingAnimation = document.getElementById("loadingAnimation");
+const body = document.querySelector("body");
+
+orderFormSubmit.addEventListener("submit", function(event) {
+  event.preventDefault(); 
+
+
+  loadingAnimation.style.display = "block";
+
+  var formData = {
+    name: userName.value,
+    email: userEmail.value,
+    message: userMessage.value,
+    subject: userSubject.value,
+  };
+
+  fetch("https://mental-health-backend-seven.vercel.app/send-data-kaliamgreenfoundation", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(function(response) {
+    if (response.ok) {
+      alert("Message submitted successfully.");
+      loadingAnimation.style.display = "none";
+      location.reload();
+    } else {
+      console.log("Error submitting message.");
+      loadingAnimation.style.display = "none";
+    }
+  })
+  .catch(function(error) {
+    console.log("Error submitting message.");
+    loadingAnimation.style.display = "none";
+    console.error(error);
+  });
+});
+
+</script>
 
             </main>
         </div>
@@ -1054,16 +1155,17 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
                         <div class="footer-menus flex flex-col">
 
 
-                            <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
+                             <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
                                 <div class="flex justify-center sm:grid grid-cols-2 sm:col-span-2 gap-6 items-end order-1">
                                     <div class="logo justify-self-center lg:justify-self-start">
                                         <a class="inline-block" href="#" style='width: 175px;'>
-                               <img src="logo.jpg" style="width:80px; margin-top:70px" />
+                               <img src="logo.jpg" style="width:80px; margin-top:45px" />
 							   </a>
                                     </div>
 
                                     <div class="address">
-                                        <p>Kalyam Green Foundation<br /> Kalyam Awan<br /> Rawalpindi, Pakistan</p>
+                                        <p style="margin-top:50px;">Kalyam Green Foundation<br /> Kalyam Awan<br /> Rawalpindi, Pakistan
+										<p style="margin-top:10px;">contact@kaliamgreenfoundation.com</p></p>
                                     </div>
                                 </div>
 
@@ -1071,13 +1173,14 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
                                 <div class="policy order-5 lg:order-4">
                                     <ul class='flex flex-row lg:flex-col justify-around lg:justify-start'>
                                         <li>
-                                            <a class="hover:text-af-green active:text-yellow underline transition-colors duration" href="#">Privacy Policy</a>
+                                            <a class="hover:text-af-green active:text-yellow underline transition-colors duration" href="#"></a>
                                         </li>
                                     </ul>
                                 </div>
+                            
                                 <div class="social order-3 lg:order-5">
                                     <p class="font-bold text-center lg:text-left">Connect with us online</p>
-                                    <ul class='flex justify-center lg:justify-start'>
+                                   <ul class='flex justify-center lg:justify-start'>
                                         <li><a class="hover:text-af-green active:text-yellow transition-colors duration" href="#"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48" height="49" class="fill-current">
 <path d="m 27.37836,23.593136 9.306678,-10.818261 h -2.205387 l -8.080987,9.393342 -6.454255,-9.393342 h -7.444226 l 9.760107,14.204397 -9.760107,11.344603 h 2.205508 l 8.53373,-9.919684 6.81617,9.919684 h 7.444226 L 27.37782,23.593136 Z m -3.020746,3.511279 -0.9889,-1.414435 -7.868345,-11.254829 H 18.8879 l 6.349847,9.083006 0.9889,1.41444 8.254049,11.806511 H 31.093161 L 24.357614,27.10496 Z" fill="currentColor"/>
 
