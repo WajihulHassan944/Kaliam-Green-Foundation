@@ -18,8 +18,7 @@
     <meta property="og:description" content="Kaliam Green Foundation" />
     <meta property="og:url" content="https://www.kaliamgreenfoundation.com/" />
     <meta property="og:site_name" content="Kaliam Green Foundation" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9494706135274140"
-     crossorigin="anonymous"></script>
+    
 	
 	<style id='wp-emoji-styles-inline-css' type='text/css'>
         img.wp-smiley,
@@ -597,13 +596,13 @@
             font-style: normal;
         }
     </style>
-   
+    
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 <link rel="manifest" href="site.webmanifest">
 	
-   <style type="text/css" id="wp-custom-css">
+	<style type="text/css" id="wp-custom-css">
         .iframe-container {
             overflow: hidden;
             padding-top: 56.25%;
@@ -666,7 +665,7 @@
      
 	   </a>
                 </div>
-                 <nav class="nav-primary header-menu items-center">
+            <nav class="nav-primary header-menu items-center">
                     <div class="menu-primary">
                         <ul id="menu-primary" class="menu-primary nav relative flex">
 						    <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 menu-item_get-involved"><a href="index.html#myhome" class="underline-animation">Home</a>
@@ -688,8 +687,9 @@
                     Donate
                 </a>
                 </nav>
-				
 					
+				
+				
 					<div class="mobile-menu-custom">
     <div class="hamburger-icon" onclick="toggleMenu()">
         <div class="line"></div>
@@ -863,50 +863,52 @@ function toggleMenu() {
         </header>
 
 
- <div class="content flex-1">
+
+        <div class="content flex-1">
             <main class="main">
-                   
-    
-                  <section class="hero-basic relative z-20 bg-forest-green "> 
+                            <section class="hero-basic relative z-20 bg-forest-green "> 
     <div class="flex justify-center items-center relative pt-17 pb-16 min-h-518 md:min-h-476 has-shadow">
                                             <div class="z-0 absolute inset-0 bg-cover bg-left md:bg-center josh-js"
                          data-josh-anim-name="fadeIn"
                          data-josh-delay="300ms"
                          data-josh-duration="2s"
-                         style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/DSC05058.jpg')"
+                         style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/shutterstock_366149123-1.jpg')"
                         ></div>
                                     <div class="container z-10">
             <div class="w-full max-w-1140 mx-auto">
                 <div class="md:max-w-945">
-                                            <div class="type-preset-6 font-display font-bold text-yellow mb-2">
-                                                            Our Impact
-                                                                                                            </div>
                                         <div class="type-preset-1 font-display text-white font-bold">
-                         Kaliam Green Foundation
+                        Our Roots<br />
+Run Deep
                     </div>
                                             <div class="type-preset-5 font-display text-white mt-3">
-                            Restoring nature and empowering communities for a sustainable future
+                           Our roots run deep in community <br />and sustainability, driving meaningful <br />change for a healthier planet.
                         </div>
                                                         </div>
             </div>
         </div>
 
 
-
             </div>
     </section>
-              <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-8f8da76a-3f60-48d2-82f7-cd8edfb391e4">
+    
+  <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-3b2a25d2-b970-41a5-99f5-0b0311584b0d">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
 </section>
-              <section class="main-content gutenberg-editor scroll-offset" id="anchor-281bbf6c-0351-4ec9-a9c3-088251fb7e07">
+              <section class="main-content gutenberg-editor scroll-offset" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
     <div>
-        <div data-type="acf/row-text"><section class="row-text scroll-offset" id="anchor-6bb25d0c-32f5-4585-8342-fbfc1a0c7de1">
+        <div data-type="acf/row-text"><section class="row-text scroll-offset" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
 <div>
 <div class="header-arrows flex justify-center items-center overflow-hidden ">
-
+<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
+			 style="background-image: url('https://www.americanforests.org/wp-content/themes/af-website/dist/images/title-arrow-right.svg');"
+		></div>
 <div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
-			Our Impact
+			How We Do It
 		</div>
+<div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight"
+			 style="background-image: url('https://www.americanforests.org/wp-content/themes/af-website/dist/images/title-arrow-left.svg');"
+		></div>
 </p></div>
 <div class="container mx-auto">
 <div class="w-full max-w-750 mx-auto text-center">
@@ -914,32 +916,20 @@ function toggleMenu() {
 </p></div>
 </p></div>
 </section>
-</div>
 
-<div data-type="core/paragraph"><p>
-
-Environmental sustainability thrives in areas of critical need. At the Kaliam Green Foundation, we focus on initiatives that create meaningful change in communities and ecosystems. Our projects are designed to enhance local well-being while addressing pressing environmental challenges.
-<br><br>With a wealth of experience, we implement our programs with precision and care. Our data-driven approach identifies the regions and communities that would benefit most from our efforts, ensuring that our interventions are impactful and relevant. By collaborating with local partners, we mobilize resources and expertise to plant trees, promote water conservation, and support sustainable agricultural practices , addressing health issues where they are needed most.
-<br><br>Together, we are not just making a difference; we are cultivating resilience and fostering sustainable futures for both people and the planet.
-
-
+    <section class="relative" style="padding-bottom:70px; padding-top:30px;">
+        
+        <div class="px-gutter md:px-0 max-w-587 md:max-w-750 mx-auto type-preset-5 font-display text-navy">
+            
+<p><meta charset="utf-8">
+At the Kaliam Green Foundation, our passionate network of volunteers is dedicated to raising awareness about vital environmental issues such as water conservation, tree preservation, soil health, and climate change. Through our volunteer efforts, we provide technical support and guidance for implementing solar-based agricultural practices.
+Additionally, we offer training and resources to help community members sell organic crops and medicinal products, connecting them to a global market through our online platform. By fostering collaboration and knowledge-sharing, we empower communities to adopt sustainable practices and create a lasting impact for the environment and their livelihoods. Together, we are cultivating a future where every individual can contribute to the health of our planet.
 </p>
-</div>
-    </div>
-</section>
-              <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-f3fba544-36c2-47f3-b79a-443607a8e1e5">
-    <div class="pt-13 md:pt-14 lg:pt-16"></div>
-</section>
+
+        </div>
+    </section>
+
     
-	
-	
-	
-	
-	
-	
-	
-	
-	
    <section class="row-get-involved scroll-offset" id="anchor-4eb56ac4-558d-4c29-ae67-0ea5c9aca50b">
                     <div class="bg-af-green py-13 relative overflow-hidden">
                         
@@ -1000,8 +990,7 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
                         </div>
                     </div>
                 </section>
-				
-								
+              				
 				
 				
 				
@@ -1146,6 +1135,8 @@ orderFormSubmit.addEventListener("submit", function(event) {
 
 </script>
 
+			  
+
             </main>
         </div>
         <footer>
@@ -1156,7 +1147,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
                         <div class="footer-menus flex flex-col">
 
 
-                             <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
+                         <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
                                 <div class="flex justify-center sm:grid grid-cols-2 sm:col-span-2 gap-6 items-end order-1">
                                     <div class="logo justify-self-center lg:justify-self-start">
                                         <a class="inline-block" href="#" style='width: 175px;'>
@@ -1181,7 +1172,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
                             
                                 <div class="social order-3 lg:order-5">
                                     <p class="font-bold text-center lg:text-left">Connect with us online</p>
-                                   <ul class='flex justify-center lg:justify-start'>
+                                 <ul class='flex justify-center lg:justify-start'>
                                         <li><a class="hover:text-af-green active:text-yellow transition-colors duration" href="#"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48" height="49" class="fill-current">
 <path d="m 27.37836,23.593136 9.306678,-10.818261 h -2.205387 l -8.080987,9.393342 -6.454255,-9.393342 h -7.444226 l 9.760107,14.204397 -9.760107,11.344603 h 2.205508 l 8.53373,-9.919684 6.81617,9.919684 h 7.444226 L 27.37782,23.593136 Z m -3.020746,3.511279 -0.9889,-1.414435 -7.868345,-11.254829 H 18.8879 l 6.349847,9.083006 0.9889,1.41444 8.254049,11.806511 H 31.093161 L 24.357614,27.10496 Z" fill="currentColor"/>
 

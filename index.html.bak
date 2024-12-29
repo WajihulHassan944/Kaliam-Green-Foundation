@@ -1,5 +1,3 @@
-
-
 <!doctype html>
 <html lang="en-US">
 
@@ -18,8 +16,7 @@
     <meta property="og:description" content="Kaliam Green Foundation" />
     <meta property="og:url" content="https://www.kaliamgreenfoundation.com/" />
     <meta property="og:site_name" content="Kaliam Green Foundation" />
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9494706135274140"
-     crossorigin="anonymous"></script>
+    
 	
 	<style id='wp-emoji-styles-inline-css' type='text/css'>
         img.wp-smiley,
@@ -597,13 +594,7 @@
             font-style: normal;
         }
     </style>
-   
-	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-<link rel="manifest" href="site.webmanifest">
-	
-   <style type="text/css" id="wp-custom-css">
+    <style type="text/css" id="wp-custom-css">
         .iframe-container {
             overflow: hidden;
             padding-top: 56.25%;
@@ -650,9 +641,23 @@
 		.search-toggle{
 			display:none;
 		}
+		
     </style>
+	
+	
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+	
+	
+	
+	
+	
+	
+	
+	
 </head>
-
 
 <body data-cmplz=1 class="home page-template-default page page-id-361 app-data index-data singular-data page-data page-361-data page-homepage-data front-page-data">
  
@@ -660,25 +665,25 @@
         <header id="site-header" class="site-header banner sticky-header" x-data="siteHeader()">
             <div class="site-header-container md:container mx-auto flex justify-between items-center">
                 <div class="header-logo flex justify-between relative items-center flex-shrink-0">
-                   <a class="brand" href="index.html" style="display:flex; gap:10px; justify-content:center; align-items:center; color:#fff; font-family: GT-Walsheim Pro, sans-serif;
+                    <a class="brand" href="index.html" style="display:flex; gap:10px; justify-content:center; align-items:center; color:#fff; font-family: GT-Walsheim Pro, sans-serif;
 					font-weight:700; font-size:23px;">
 <img src="logo.jpg" style="width:80px; " class="myheaderlogoimg">  
      
 	   </a>
                 </div>
-                 <nav class="nav-primary header-menu items-center">
+                <nav class="nav-primary header-menu items-center">
                     <div class="menu-primary">
                         <ul id="menu-primary" class="menu-primary nav relative flex">
-						    <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 menu-item_get-involved"><a href="index.html#myhome" class="underline-animation">Home</a>
+						    <li id="menu-item-20" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-20 menu-item_get-involved"><a href="#myhome" class="underline-animation">Home</a>
                             </li>
-                            <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8 menu-item_what-we-do"><a href="index.html#myabout" class="underline-animation">About us</a>
+                            <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8 menu-item_what-we-do"><a href="#myabout" class="underline-animation">About us</a>
                              </li>
-    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8 menu-item_what-we-do"><a href="index.html#mywhoweare" class="underline-animation">Who we are</a>
+    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8 menu-item_what-we-do"><a href="#mywhoweare" class="underline-animation">Who we are</a>
                              </li>
                                                 
 						<li id="menu-item-19" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 menu-item_resources-for-you"><a href="how-we-do-it.html" class="underline-animation">How we do it</a>
                               </li>
-    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8 menu-item_what-we-do"><a href="index.html#mycontact" class="underline-animation">Contact us</a>
+    <li id="menu-item-8" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-8 menu-item_what-we-do"><a href="#mycontact" class="underline-animation">Contact us</a>
                              </li>
                         
                         </ul>
@@ -689,8 +694,10 @@
                 </a>
                 </nav>
 				
-					
-					<div class="mobile-menu-custom">
+				
+				
+				
+				<div class="mobile-menu-custom">
     <div class="hamburger-icon" onclick="toggleMenu()">
         <div class="line"></div>
         <div class="line"></div>
@@ -698,16 +705,15 @@
     </div>
     <div class="menu-items" id="menu-items">
        <ul>
-            <li><a href="index.html#myhome" onclick="toggleMenu()">Home</a></li>
-            <li><a href="index.html#myabout" onclick="toggleMenu()">About Us</a></li>
-            <li><a href="index.html#mywhoweare" onclick="toggleMenu()">Who we are</a></li>
+            <li><a href="#myhome" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#myabout" onclick="toggleMenu()">About Us</a></li>
+            <li><a href="#mywhoweare" onclick="toggleMenu()">Who we are</a></li>
             <li><a href="how-we-do-it.html" onclick="toggleMenu()">How we do it</a></li>
-            <li><a href="index.html#mycontact" onclick="toggleMenu()">Contact us</a></li>
-            <li><a href="index.html" class="decorDonateBtn" onclick="toggleMenu()">Donate</a></li>
+            <li><a href="#mycontact" onclick="toggleMenu()">Contact us</a></li>
+            <li><a href="#" class="decorDonateBtn" onclick="toggleMenu()">Donate</a></li>
         </ul>
     </div>
 </div>
-
 
 
 
@@ -862,51 +868,169 @@ function toggleMenu() {
            
         </header>
 
-
- <div class="content flex-1">
+        <div class="content flex-1">
             <main class="main">
-                   
-    
-                  <section class="hero-basic relative z-20 bg-forest-green "> 
-    <div class="flex justify-center items-center relative pt-17 pb-16 min-h-518 md:min-h-476 has-shadow">
-                                            <div class="z-0 absolute inset-0 bg-cover bg-left md:bg-center josh-js"
-                         data-josh-anim-name="fadeIn"
-                         data-josh-delay="300ms"
-                         data-josh-duration="2s"
-                         style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/DSC05058.jpg')"
-                        ></div>
-                                    <div class="container z-10">
-            <div class="w-full max-w-1140 mx-auto">
-                <div class="md:max-w-945">
-                                            <div class="type-preset-6 font-display font-bold text-yellow mb-2">
-                                                            Our Impact
-                                                                                                            </div>
-                                        <div class="type-preset-1 font-display text-white font-bold">
-                         Kaliam Green Foundation
-                    </div>
-                                            <div class="type-preset-5 font-display text-white mt-3">
-                            Restoring nature and empowering communities for a sustainable future
+
+
+                <section class="hero-homepage relative z-10 bg-forest-green" id="myhome">
+                    <div class="flex justify-center items-center relative pt-144px pb-16 md:pt-16 md:h-screen max-h-670">
+                        <div class="z-0 absolute inset-0 bg-cover bg-left md:bg-center josh-js" data-josh-anim-name="fadeIn" data-josh-delay="300ms" data-josh-duration="2s" style="background-image: url('d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/SharpenedDJI_20240626195831_0929_D-Standard-1100x733-489bb2b9-9f03-449b-b4a2-59c83644bf0a.png')"></div>
+                        <div class="container z-10">
+                            <div class="w-full max-w-1140 mx-auto">
+                                <div class="max-w-945 type-preset-1 font-display text-white font-bold">
+   Empowering communities for a sustainable planet.
+</div>
+<div class="flex gap-5 flex-col xs:flex-row items-start mt-6 md:mt-10">
+                                    <a class="btn btn--primary" href="#myabout" ><span>Explore</span></a>
+                                </div>
+                            </div>
                         </div>
-                                                        </div>
+
+                        <div class="right-0 absolute bottom-0 flex items-center p-4 z-10 transition-colors duration" :class=" open ? 'bg-navy' : 'bg-transparent' " x-data="{ open: false }">
+                           
+                        </div>
+                    </div>
+                </section>
+				
+				
+				
+				
+				
+				
+				
+				 <section class="row-project-teasers" style="padding:50px 0;" id="myabout">
+    <div>
+        <div class="header-arrows flex justify-center items-center overflow-hidden ">
+		<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-right.svg');"
+		></div>
+		<div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
+			Foundation Overview
+		</div>
+		<div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-left.svg');"
+		></div>
+	</div>
+                    <div class="container mx-auto">
+                <div class="w-full max-w-850 mx-auto type-preset-5-5 font-display text-navy text-center mt-8">
+                  Kaliam Green Foundation is a non-profit organization dedicated to promoting environmental sustainability and enhancing community well-being. Although its members have been working voluntarily for decades, the Foundation was formally registered in 2024 to gain clearer access, legal recognition, and the protective framework under the Punjab Charities Act 2018. Primarily serving District Rawalpindi, with a current focus on Union Council Kaliam Awan, the Foundation addresses critical environmental issues, including forest restoration, water resource management with a focus on rainwater conservation, soil preservation, sustainable agricultural practices, community empowerment, and health initiatives. Through collaboration with local government bodies and community stakeholders, the Foundation aims to create lasting, impactful change and has plans to expand to additional regions in the future.
+				  </div>
             </div>
-        </div>
+               
+			   </div>
+</section>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+                <section class="featured-articles" id="mywhoweare">
+                    <div class="py-15 bg-beige-25 relative ">
+                        <div class="header-arrows flex justify-center items-center overflow-hidden ">
+                            <div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft" style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-right.svg');"></div>
+                            <div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
+                                Who We Are
+                            </div>
+                            <div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight" style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-left.svg');"></div>
+                        </div>
+                     
+
+                        <div class="container mx-auto mt-12 z-10 relative">
+                            <div class="mx-auto max-w-1170">
+                                <div class="flex flex-wrap md:flex-nowrap">
+                                    <a class="max-w-653 w-full mb-11 md:mb-0 px-5 block group josh-js duration-250" href="#" data-josh-anim-name="fadeIn">
+                                        <figure class="mb-7 overflow-hidden w-full">
+                                            <div class="w-full aspect-w-5 aspect-h-3 transform group-hover:scale-105 duration-250">
+                                                <img width="1024" height="768" src="d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea-1024x768.png" class="w-full h-full object-cover" alt="" decoding="async" fetchpriority="high"
+                                                    srcset="d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea-1024x768.png 1024w, d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea-300x225.png 300w, d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea-768x576.png 768w, d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea-320x240.png 320w, d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea-640x480.png 640w, d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2024/08/20201014_135012-min-1100x825-16e19c3c-bd61-49de-83de-65c09beba3ea.png 1100w"
+                                                    sizes="(max-width: 1024px) 100vw, 1024px" />
+                                            </div>
+                                        </figure>
+                                       </a>
+
+                                    <div class="w-full px-5">
+   <a class="md:max-w-560 mx-auto mb-11 block group josh-js duration-250 animation-delay-200" href="#" data-josh-anim-name="fadeIn">
+    <h4 class="mb-3 font-display type-preset-7 font-bold text-kelly-green">
+        Who We Are
+    </h4>
+    <h3 class="font-display type-preset-4 font-bold group-hover:text-af-green duration-250" style="font-size:17px;font-weight:400;">
+     We are the Kaliam Green Foundation, a nonprofit organization dedicated to fostering environmental sustainability and enhancing community well-being. Based in District Rawalpindi, we address critical issues like forest restoration, water management, and soil conservation. Our mission empowers local communities through education and engagement in sustainable practices, with a focus on creating lasting, positive change for a healthier planet.</h3>
+</a>
 
 
 
-            </div>
-    </section>
-              <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-8f8da76a-3f60-48d2-82f7-cd8edfb391e4">
+                                       
+									   <div class="md:max-w-460 mx-auto">
+                                            <a class="btn btn--primary josh-js duration-250 animation-delay-400" href="our-impact.html" data-josh-anim-name="fadeIn">
+                                        <span>Our Impact</span>
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="row-repeater" id="anchor-348597f1-f343-4364-ac20-73879c1091fb">
+                    <div class="bg-forest-green">
+                        <div class="relative">
+                            <div class="" x-data="{hover: false}">
+                                <div class="flex flex-wrap md:flex-nowrap">
+                                    <div class="md:order-2 md:ml-autoorder-1 relative w-full md:w-1/2 overflow-hidden josh-js duration-250" data-josh-anim-name="fadeIn">
+                                        <div class="md:min-h-540 md:pb-0 aspect-w-72 aspect-h-55 h-0 md:h-auto overflow-hidden">
+                                            <div class="bg-cover bg-no-repeat bg-center duration-300 transform" style="background-image:url('d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/09/Grizzly-Mom-and-Cub-Adobe-Stock.jpeg')" :class="{ 'scale-120': hover }" x-ref="background">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="md:order-1 2xl:pt-108px md:pt-1-percent w-full md:w-1/2 order-2 relative sm:static md:relative 2xl:static flex flex-col justify-center">
+                                        <div class="mb-7 md:mb-0 py-9 md:py-0josh-js duration-250 mx-auto px-gutter max-w-587" data-josh-anim-name="fadeIn">
+                                            <h2 class="type-preset-2 mb-5 type-preset-2 font-display font-bold text-white">
+                                                Make Our Mission Grow
+                                            </h2>
+                                            <div class="mb-9 type-preset-5 font-body text-white acf-wysiwyg">
+                                                <p>
+												At the Kaliam Green Foundation, we’re committed to sustainability and community empowerment. Join us as a technical expert or volunteer to support tree planting, soil conservation, and water management. Your skills and passion will help create lasting impact and a more resilient planet.
+												</p>
+
+                                            </div>
+                                            <div class="flex flex-wrap gap-x-5 gap-y-8">
+                                                <a class="btn btn--primary" href="#" target="" @mouseover=" hover = true " @mouseout=" hover = false "><span>Explore More</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            
+                 <section class="spacing-section" style="background-color: transparent" id="anchor-3b2a25d2-b970-41a5-99f5-0b0311584b0d">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
 </section>
-              <section class="main-content gutenberg-editor scroll-offset" id="anchor-281bbf6c-0351-4ec9-a9c3-088251fb7e07">
+              <section class="main-content gutenberg-editor" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
     <div>
-        <div data-type="acf/row-text"><section class="row-text scroll-offset" id="anchor-6bb25d0c-32f5-4585-8342-fbfc1a0c7de1">
+        <div data-type="acf/row-text"><section class="row-text" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
 <div>
 <div class="header-arrows flex justify-center items-center overflow-hidden ">
-
+<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-right.svg');"
+		></div>
 <div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
-			Our Impact
+			Key Objectives
 		</div>
+<div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-left.svg');"
+		></div>
 </p></div>
 <div class="container mx-auto">
 <div class="w-full max-w-750 mx-auto text-center">
@@ -914,33 +1038,119 @@ function toggleMenu() {
 </p></div>
 </p></div>
 </section>
+
+
+
+<div data-type="core/list"><ul class="wp-block-list">
+<li><b>Sustainable Water and Soil Management:</b> Protecting resources for current and future generations.</li>
+<li><b>Community-Based Sewerage Solutions:</b> Improving sanitation and public health collaboratively.</li>
+<li><b>Tree Plantations: </b>Promoting biodiversity through community involvement in olive tree planting.</li>
+<li><b>Solar-Powered Agriculture Support:</b> Offering eco-friendly farming consultancy to empower farmers.</li>
+<li><b>Environmental Awareness and Education:</b> Fostering sustainable practices and community engagement in decision-making.</li>
+<li><b>Community Empowerment: </b>Involving local farmers and women in economic initiatives and environmental stewardship.</li>
+</ul>
 </div>
 
-<div data-type="core/paragraph"><p>
-
-Environmental sustainability thrives in areas of critical need. At the Kaliam Green Foundation, we focus on initiatives that create meaningful change in communities and ecosystems. Our projects are designed to enhance local well-being while addressing pressing environmental challenges.
-<br><br>With a wealth of experience, we implement our programs with precision and care. Our data-driven approach identifies the regions and communities that would benefit most from our efforts, ensuring that our interventions are impactful and relevant. By collaborating with local partners, we mobilize resources and expertise to plant trees, promote water conservation, and support sustainable agricultural practices , addressing health issues where they are needed most.
-<br><br>Together, we are not just making a difference; we are cultivating resilience and fostering sustainable futures for both people and the planet.
-
-
-</p>
+<div data-type="core/paragraph" style="margin-bottom:70px;">
+    <p>Through these initiatives, the Kaliam Green Foundation promotes sustainable development, empowers communities, and fosters a resilient environment. Join us in creating a healthier, greener future.</p>
 </div>
-    </div>
-</section>
-              <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-f3fba544-36c2-47f3-b79a-443607a8e1e5">
+
+
+
+
+<!-- Core values -->
+<div style="background-color: rgba(250, 248, 247,1); padding-bottom:50px;">
+                 <section class="spacing-section" style="background-color: transparent" id="anchor-3b2a25d2-b970-41a5-99f5-0b0311584b0d">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
 </section>
-    
-	
-	
-	
-	
-	
-	
-	
-	
-	
-   <section class="row-get-involved scroll-offset" id="anchor-4eb56ac4-558d-4c29-ae67-0ea5c9aca50b">
+              <section class="main-content gutenberg-editor" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
+    <div>
+        <div data-type="acf/row-text"><section class="row-text" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
+<div>
+<div class="header-arrows flex justify-center items-center overflow-hidden ">
+<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-right.svg');"
+		></div>
+<div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
+			Core Values
+		</div>
+<div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-left.svg');"
+		></div>
+</p></div>
+<div class="container mx-auto">
+<div class="w-full max-w-750 mx-auto text-center">
+                                            </div>
+</p></div>
+</p></div>
+</section>
+
+
+
+<div data-type="core/list"><ul class="wp-block-list">
+<li><b>Transparency:</b> We uphold full accountability in our actions, ensuring that all operations, financial matters, and decisions are open to scrutiny by our stakeholders and the community.</li>
+<li><b>Integrity:</b> Guided by honesty and ethical principles, we are dedicated to maintaining the trust of our partners, donors, and community members in all aspects of our work.</li>
+<li><b>Community-Centric Development:</b> We prioritize the needs and aspirations of the communities we serve, involving them in decision-making and tailoring our programs to support sustainable, locally-driven progress that benefits all.</li>
+</ul>
+</div>
+
+<div data-type="core/paragraph" style="margin-bottom:70px;">
+    <p>
+	</p>
+</div>
+
+</div>
+</div></section></div>
+<!-- Founding purpose -->
+
+
+                 <section class="spacing-section" style="background-color: transparent" id="anchor-3b2a25d2-b970-41a5-99f5-0b0311584b0d">
+    <div class="pt-13 md:pt-14 lg:pt-16"></div>
+</section>
+              <section class="main-content gutenberg-editor" id="anchor-515fe34e-043a-49bc-be33-68d3f9f3afaf">
+    <div>
+        <div data-type="acf/row-text"><section class="row-text" id="anchor-89efe8fa-8273-41df-b8b5-a3c10f37a379">
+<div>
+<div class="header-arrows flex justify-center items-center overflow-hidden ">
+<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-right.svg');"
+		></div>
+<div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
+			Founding Purpose
+		</div>
+<div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-left.svg');"
+		></div>
+</p></div>
+<div class="container mx-auto">
+<div class="w-full max-w-750 mx-auto text-center">
+                                            </div>
+</p></div>
+</p></div>
+</section>
+
+
+
+<div data-type="core/list"><ul class="wp-block-list">
+<li><b>Forest Restoration:</b> Revitalizing local ecosystems by promoting reforestation and biodiversity.</li>
+<li><b>Water Resource Management:</b> Implementing sustainable practices, including rainwater conservation, to support clean and reliable water access.</li>
+<li><b>Soil Conservation and Sustainable Agriculture:</b> Encouraging eco-friendly practices to maintain soil health and support local agriculture.</li>
+<li><b>Community Empowerment: Community Empowerment:</b> We are committed to actively involving local communities, including farmers,  women, and youth in decision-making processes and enhancing environmental awareness. This initiative includes creating a platform for the sale of organic crops,  and providing technical support for  tree plantations. We aim to give training  to farmers for cultivating cash crops and will provide training for women in community gardening of medicinal plants, enabling them to sell their produce through direct vendor connections. Furthermore, we will organize training programs in cultural materials for volunteers of all genders, fostering authenticity and facilitating global collaboration.
+</li>
+<li><b>Health and Well-being Initiatives:</b> Addressing public health issues linked to environmental conditions like dengue, malaria etc.</li>
+</ul>
+</div>
+
+<div data-type="core/paragraph" style="margin-bottom:70px;">
+    <p>
+	Through partnerships with government bodies and local stakeholders, the Foundation aims to create lasting, positive change and extend its efforts to other regions in the future.
+	</p>
+</div>
+
+
+
+
+        <section class="row-get-involved" id="anchor-4eb56ac4-558d-4c29-ae67-0ea5c9aca50b">
                     <div class="bg-af-green py-13 relative overflow-hidden">
                         
 
@@ -948,7 +1158,7 @@ Environmental sustainability thrives in areas of critical need. At the Kaliam Gr
                             <div class="max-w-1170 mx-auto flex flex-col md:flex-row gap-x-10 gap-y-10">
                                 <div class="w-full max-w-260 md:max-w-450 mx-auto text-navy josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="0ms">
                                     <div class="flex justify-center items-center w-130 md:w-175 h-130 md:h-175 rounded-full overflow-hidden mb-6">
-                                        <img width="320" height="320" src="https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-320x320.png" class="w-full h-full object-cover fill-current" alt="" decoding="async" loading="lazy" srcset="https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-320x320.png 320w, https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-300x300.png 300w, https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-150x150.png 150w, https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved.png 350w"
+                                        <img width="320" height="320" src="d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-320x320.png" class="w-full h-full object-cover fill-current" alt="" decoding="async" loading="lazy" srcset="https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-320x320.png 320w, https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-300x300.png 300w, https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved-150x150.png 150w, https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/get-involved.png 350w"
                                             sizes="(max-width: 320px) 100vw, 320px" />
                                     </div>
                                     <div class="type-preset-4 font-display font-bold mb-4">
@@ -1001,7 +1211,259 @@ Join the Kaliam Green Foundation today to support sustainable growth, strengthen
                     </div>
                 </section>
 				
-								
+				
+				
+				
+				
+				
+              <section class="spacing-section" style="background-color: transparent" id="anchor-b6a19a60-ba5f-4223-8622-0341385013e9">
+    <div class="pt-13 md:pt-14 lg:pt-16"></div>
+</section>
+              <section class="row-project-teasers" id="anchor-a5a48c19-952a-4a9a-bfe8-57d088e08859">
+    <div>
+        <div class="header-arrows flex justify-center items-center overflow-hidden ">
+		<div class="w-117 h-31 bg-h-full bg-right josh-js" data-josh-anim-name="fadeInLeft"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-right.svg');"
+		></div>
+		<div class="flex-shrink-0 max-w-199 md:max-w-750 font-display type-preset-4 font-bold text-center mx-5">
+			Volunteer, Honrary
+		</div>
+		<div class="w-117 h-31 bg-h-full bg-left josh-js" data-josh-anim-name="fadeInRight"
+			 style="background-image: url('wp-content/themes/af-website/dist/images/title-arrow-left.svg');"
+		></div>
+	</div>
+                <div class="w-full max-w-1140 mx-auto">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-gutter gap-y-gutter mt-11 md:mt-13">
+                                   
+
+
+								   <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+    <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+        <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/Mountain-forest-in-oregon-Jess-Kraft-320x214.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+            Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+            Direct Service Volunteers 
+        </div>
+     <div class="type-preset-6 font-body mb-8">
+    Direct service volunteers engage with communities, providing hands-on support in our environmental and sustainability projects. Your involvement will create immediate, meaningful impact in local communities.
+</div>
+
+    </a>
+ 
+</div>
+
+                    </div>
+                                    <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+    <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+        <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/09/RedwoodParks_RollingRedwoodSorrel_YinghaiLu-320x213.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+            Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+            Leadership Roles
+        </div>
+      <div class="type-preset-6 font-body mb-8">
+    Volunteers in leadership roles guide our strategy and management, ensuring the success of key initiatives. Your expertise and vision will help shape the future of our mission and drive lasting impact.
+</div>
+
+    </a>
+ 
+</div>
+
+                    </div>
+                                    <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+   <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+         <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/09/Visiting_An_Old_Friend_MaxForster-1-320x213.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+            Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+Event Volunteers 
+        </div>
+      <div class="type-preset-6 font-body mb-8">
+    Event volunteers are essential in organizing and supporting our community activities, from planning to on-the-ground assistance. Help us make each event impactful and memorable for all involved.
+</div>
+
+    </a>
+  
+</div>
+
+                    </div>
+                                    <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+    <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+        <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/DJI_0049-Edit-320x213.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+           Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+           Advocacy and Awareness Volunteers
+        </div>
+      <div class="type-preset-6 font-body mb-8">
+    Our advocacy volunteers raise awareness and inspire change, amplifying our message for environmental sustainability. Join us in promoting vital causes and engaging communities for lasting impact.
+</div>
+
+    </a>
+    
+</div>
+
+                    </div>
+                                    <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+    <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+        <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/Western-white-pine-seedlings-in-the-USFS-nursery-in-Coeur-dAlene-Idaho-320x213.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+           Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+            Administrative Volunteers 
+        </div>
+     <div class="type-preset-6 font-body mb-8">
+    Administrative volunteers handle vital office support tasks, keeping our operations smooth and organized. Your contributions help us stay focused on driving environmental impact.
+</div>
+
+    </a>
+  
+</div>
+
+                    </div>
+                                    <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+   <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+         <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/09/JHOUSTON_20210915_02816-320x213.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+           Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+            Technical Support Volunteers 
+        </div>
+     <div class="type-preset-6 font-body mb-8">
+    Our technical support volunteers bring essential IT and specialized skills, helping us enhance digital infrastructure and project efficiency. Join us to apply your expertise in meaningful, impactful ways.
+</div>
+
+    </a>
+  <!--  <div class="relative z-10 pointer-events-none">
+                    <a class="inline-block type-preset-7 font-display font-medium text-af-green hover:text-yellow underline-animation active:underline-animation--out underline-animation--1px transition-colors duration mr-4 pointer-events-auto" href="https://www.americanforests.org/what-drives-us/climate-change/">
+                Climate
+            </a>
+                    <a class="inline-block type-preset-7 font-display font-medium text-af-green hover:text-yellow underline-animation active:underline-animation--out underline-animation--1px transition-colors duration mr-4 pointer-events-auto" href="https://www.americanforests.org/what-drives-us/water/">
+                Water
+            </a>
+            </div> -->
+</div>
+
+                    </div>
+					
+					
+					
+					<div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+   <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+         <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/09/RedwoodParks_RollingRedwoodSorrel_YinghaiLu-320x213.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+            Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+           Mentoring and Training
+        </div>
+       <div class="type-preset-6 font-body mb-8">
+    Experienced volunteers provide guidance and training, helping new team members develop skills and confidence. Together, we build a knowledgeable and dedicated team ready to drive positive environmental impact.
+</div>
+
+    </a>
+ 
+</div>
+
+                    </div>
+					
+					
+					  <div class="josh-js" data-josh-anim-name="fadeIn">
+                        <div class="relative flex flex-col justify-between md:min-h-350 px-gutter pb-10 mt-13 bg-af-green-100 hover:bg-forest-green active:bg-navy text-navy hover:text-white active:text-white transition-colors duration josh-js fluid:animation-delay-0" data-josh-anim-name="fadeIn" data-josh-delay="ms" >
+   <a href="#" class="z-0 absolute inset-0"></a>
+    <a class="block" href="#">
+         <div class="w-16 h-16 -mt-13 mb-5 mx-auto md:ml-0 rounded-full overflow-hidden">
+            <div class="w-full h-full bg-center bg-cover"
+                 style="background-image: url('https://d3f9k0n15ckvhe.cloudfront.net/wp-content/uploads/2021/10/Mountain-forest-in-oregon-Jess-Kraft-320x214.jpg')"
+            ></div>
+        </div>
+        <div class="type-preset-6-5 font-display font-bold text-af-green mb-3">
+            Volunteer
+        </div>
+        <div class="type-preset-5 font-display font-bold mb-3">
+           Remote Volunteers 
+        </div>
+		<div class="type-preset-6 font-body mb-8">
+    Our remote volunteers play a crucial role in supporting our mission, contributing skills and expertise from any location. Join us to make a difference in environmental sustainability, no matter where you are.
+</div>
+
+    </a>
+ 
+</div>                    </div>
+					
+					
+					
+					
+                            </div>
+                    </div>
+    </div>
+</section>
+<section class="spacing-section" style="background-color: transparent" id="anchor-b6a19a60-ba5f-4223-8622-0341385013e9">
+    <div class="pt-13 md:pt-14 lg:pt-16"></div>
+</section>	
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
 				
 				
 				
@@ -1146,6 +1608,9 @@ orderFormSubmit.addEventListener("submit", function(event) {
 
 </script>
 
+
+			  
+
             </main>
         </div>
         <footer>
@@ -1156,7 +1621,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
                         <div class="footer-menus flex flex-col">
 
 
-                             <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
+                            <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
                                 <div class="flex justify-center sm:grid grid-cols-2 sm:col-span-2 gap-6 items-end order-1">
                                     <div class="logo justify-self-center lg:justify-self-start">
                                         <a class="inline-block" href="#" style='width: 175px;'>
@@ -1181,7 +1646,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
                             
                                 <div class="social order-3 lg:order-5">
                                     <p class="font-bold text-center lg:text-left">Connect with us online</p>
-                                   <ul class='flex justify-center lg:justify-start'>
+                                    <ul class='flex justify-center lg:justify-start'>
                                         <li><a class="hover:text-af-green active:text-yellow transition-colors duration" href="#"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48" height="49" class="fill-current">
 <path d="m 27.37836,23.593136 9.306678,-10.818261 h -2.205387 l -8.080987,9.393342 -6.454255,-9.393342 h -7.444226 l 9.760107,14.204397 -9.760107,11.344603 h 2.205508 l 8.53373,-9.919684 6.81617,9.919684 h 7.444226 L 27.37782,23.593136 Z m -3.020746,3.511279 -0.9889,-1.414435 -7.868345,-11.254829 H 18.8879 l 6.349847,9.083006 0.9889,1.41444 8.254049,11.806511 H 31.093161 L 24.357614,27.10496 Z" fill="currentColor"/>
 
