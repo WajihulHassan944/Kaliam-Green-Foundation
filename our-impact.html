@@ -1147,7 +1147,23 @@ orderFormSubmit.addEventListener("submit", function(event) {
 </script>
 
             </main>
-        </div>
+        </div>	<style>
+		.logoStyle{
+			width: 175px;
+		}
+ @media (max-width: 768px) {
+		.customStyleFooter{
+			display:flex !important;
+			flex-direction:column !important;
+			justify-content:center !important;
+			align-items:center !important;
+			
+		}
+		.logoStyle{
+			width: 75px;
+		}
+		}
+		</style>
         <footer>
             <section class="site-footer relative z-10 bg-navy text-beige-100 pt-13 overflow-hidden">
                 <div class="container mx-auto">
@@ -1156,10 +1172,10 @@ orderFormSubmit.addEventListener("submit", function(event) {
                         <div class="footer-menus flex flex-col">
 
 
-                             <section class="mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
-                                <div class="flex justify-center sm:grid grid-cols-2 sm:col-span-2 gap-6 items-end order-1">
+                         <section class=" mid-footer text-white font-display type-preset-7 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-6 mb-10 text-center sm:text-left items-end pt-4 mb-13 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="800ms">
+                                <div class=" customStyleFooter flex justify-center sm:grid grid-cols-2 sm:col-span-2 gap-6 items-end order-1">
                                     <div class="logo justify-self-center lg:justify-self-start">
-                                        <a class="inline-block" href="#" style='width: 175px;'>
+                                        <a class="inline-block logoStyle" href="#">
                                <img src="logo.jpg" style="width:80px; margin-top:45px" />
 							   </a>
                                     </div>
@@ -1181,7 +1197,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
                             
                                 <div class="social order-3 lg:order-5">
                                     <p class="font-bold text-center lg:text-left">Connect with us online</p>
-                                   <ul class='flex justify-center lg:justify-start'>
+                                 <ul class='flex justify-center lg:justify-start'>
                                         <li><a class="hover:text-af-green active:text-yellow transition-colors duration" href="#"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="48" height="49" class="fill-current">
 <path d="m 27.37836,23.593136 9.306678,-10.818261 h -2.205387 l -8.080987,9.393342 -6.454255,-9.393342 h -7.444226 l 9.760107,14.204397 -9.760107,11.344603 h 2.205508 l 8.53373,-9.919684 6.81617,9.919684 h 7.444226 L 27.37782,23.593136 Z m -3.020746,3.511279 -0.9889,-1.414435 -7.868345,-11.254829 H 18.8879 l 6.349847,9.083006 0.9889,1.41444 8.254049,11.806511 H 31.093161 L 24.357614,27.10496 Z" fill="currentColor"/>
 
@@ -1199,6 +1215,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
     <path d="M24.956 15.295c1.699.01 7.646.076 9.311.535a3.174 3.174 0 0 1 2.21 2.27c.463 1.772.516 5.252.522 6.024l.001.114v.194c-.007.772-.06 4.252-.522 6.025a3.175 3.175 0 0 1-2.21 2.27c-1.747.48-8.204.53-9.53.535h-.478c-.617-.002-2.343-.014-4.19-.075l-.556-.02c-1.953-.074-3.93-.206-4.783-.44a3.175 3.175 0 0 1-2.21-2.27c-.478-1.83-.519-5.479-.522-6.09v-.177c.003-.612.044-4.26.522-6.09a3.174 3.174 0 0 1 2.21-2.27c.731-.202 2.288-.327 3.948-.406l.556-.024.279-.011.557-.02a153.75 153.75 0 0 1 3.972-.074zm-2.8 5.467v7.813l6.25-3.906-6.25-3.907z" fill="currentColor" fill-rule="evenodd"/>
 </svg></a></li>
                                     </ul>
+										<a href="privacy-policy.html">Privacy Policy</a>
                                 </div>
                             </section>
                             <section class="lower-footer font-display type-preset-7 grid grid-cols-2 gap-6 xs:grid-cols-2 lg:grid-cols-6 mb-10 text-center lg:text-left items-end pt-4 josh-js fluid:animation-delay-0" data-josh-anim-name="fadeInUp" data-josh-delay="1200ms">
@@ -1208,7 +1225,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
   </p>
                                 </div>
                                 <div class="copyright flex items-end col-span-3">
-                                    <p class="type-preset-7 md:inline">Copyright &copy; 2024 Kaliam Green Foundation. All Rights Reserved. <br>Created by <a class="hover:text-af-green active:text-yellow underline transition-colors duration" href="wajihulhassan.vercel.app">Wajih ul Hassan</a></p>
+                                    <p class="type-preset-7 md:inline">Copyright &copy; 2025 Kaliam Green Foundation. All Rights Reserved. <br>Created by <a class="hover:text-af-green active:text-yellow underline transition-colors duration" href="wajihulhassan.vercel.app">Wajih ul Hassan</a></p>
                                 </div>
                             </section>
 
@@ -1220,6 +1237,7 @@ orderFormSubmit.addEventListener("submit", function(event) {
 
         </footer>
     </div>
+
 
     <!-- Consent Management powered by Complianz | GDPR/CCPA Cookie Consent https://wordpress.org/plugins/complianz-gdpr -->
     <div id="cmplz-cookiebanner-container">
