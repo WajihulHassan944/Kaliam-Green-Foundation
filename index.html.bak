@@ -1522,6 +1522,9 @@ Event Volunteers
 
 <style>
 .flagCounter{
+position:fixed;
+bottom:10px;
+left:10px;
 }
 .loading-container {
   display: none;
