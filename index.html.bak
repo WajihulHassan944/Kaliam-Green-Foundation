@@ -25,6 +25,7 @@
     <meta property="og:description" content="Kaliam Green Foundation" />
     <meta property="og:url" content="https://www.kaliamgreenfoundation.com/" />
     <meta property="og:site_name" content="Kaliam Green Foundation" />
+   <meta name="google-adsense-account" content="ca-pub-7912856142079702">
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7912856142079702"
      crossorigin="anonymous"></script>
 	<style id='wp-emoji-styles-inline-css' type='text/css'>
@@ -903,8 +904,136 @@ function toggleMenu() {
 				
 				
 				
-				
-				
+			<section class="news-ticker" style="margin-bottom: 20px;">
+  <div class="news-container">
+    <ul class="news-list">
+      <li><strong>Breaking News: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+      <li><strong>Update </strong>: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><strong>Breaking News: </strong> Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+      <li><strong>Breaking News: </strong> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</li>
+    </ul>
+  </div>
+</section>
+
+<style>
+  .news-ticker {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+  }
+
+  .news-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	 background-color: #f8f9fa;
+   
+  }
+
+  .news-list li {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #333;
+ background-color: #f8f9fa;
+       border-bottom: 1px solid #ddd;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transform: translateY(-200%);
+    transition: transform 0.7s ease, opacity 0.7s ease;
+  }
+
+  .news-list li.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .news-list li.removing {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+</style>
+
+<script>
+  document.addEventListener("DOMContentLoaded", async function () {
+    const newsList = document.querySelector(".news-list");
+
+    // Fetch data from the API
+    async function fetchNews() {
+      try {
+        const response = await fetch("https://blogs-admin-editor.vercel.app/campaigns");
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error("Error fetching news:", error);
+        return [];
+      }
+    }
+
+    // Render news items dynamically
+    async function renderNews() {
+      const newsItems = await fetchNews();
+
+      if (newsItems.length === 0) {
+        newsList.innerHTML = "<li><strong>Error: </strong>No news available.</li>";
+        return;
+      }
+
+      newsList.innerHTML = newsItems.map(item => `
+        <li><strong>${item.title}: </strong> ${item.description}</li>
+      `).join("");
+    }
+
+    // Animate the news ticker
+    function setupTicker() {
+      const items = document.querySelectorAll(".news-list li");
+      let currentIndex = 0;
+
+      function showNextItem() {
+        const previousIndex = (currentIndex - 1 + items.length) % items.length;
+
+        items[previousIndex].classList.remove("active", "removing");
+        items[previousIndex].classList.add("removing");
+
+        setTimeout(() => {
+          items[previousIndex].classList.remove("removing");
+        }, 500); // Match the duration of the CSS transition
+
+        items[currentIndex].classList.add("active");
+        currentIndex = (currentIndex + 1) % items.length;
+      }
+
+      if (items.length > 0) {
+        items[currentIndex].classList.add("active");
+        setInterval(showNextItem, 5000);
+      }
+    }
+
+    // Initialize
+    await renderNews();
+    setupTicker();
+  });
+</script>		
 				
 				
 				 <section class="row-project-teasers" style="padding:50px 0;" id="myabout">

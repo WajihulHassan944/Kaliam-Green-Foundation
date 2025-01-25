@@ -1,0 +1,418 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global settings */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin-bottom: 15px;
+  color: #2a3d56;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* Admin Panel Layout */
+.admin-panel {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.admin-header {
+  background-color: #2a3d56;
+  color: #fff;
+  padding: 20px 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-heading {
+  font-size: 24px;
+  color:#fff;
+}
+
+.admin-layout {
+  display: flex;
+  flex: 1;
+}
+
+.admin-sidebar {
+  background-color: #1f2b3d;
+  width: 250px;
+  padding: 20px;
+  box-shadow: 4px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-menu {
+  list-style-type: none;
+}
+
+.sidebar-item {
+  margin-bottom: 20px;
+}
+
+.sidebar-link {
+  display: block;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: #3c4f6a;
+}
+
+.admin-content {
+  flex: 1;
+  padding: 30px;
+  background-color: #fff;
+}
+
+/* Campaigns Section */
+.campaigns-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.campaigns-heading {
+  font-size: 22px;
+  color: #2a3d56;
+}
+
+.add-campaign-button {
+  background-color: #3c8d75;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.add-campaign-button:hover {
+  background-color: #2b6a55;
+}
+
+.campaigns-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.campaign-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.campaign-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.campaign-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a3d56;
+}
+
+.campaign-description {
+  font-size: 14px;
+  color: #666;
+  margin: 10px 0;
+}
+
+.campaign-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.edit-campaign-button, .delete-campaign-button {
+  background-color: #407a4f;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.edit-campaign-button:hover {
+  background-color: #2e5b3f;
+}
+
+.delete-campaign-button {
+  background-color: #e74c3c;
+}
+
+.delete-campaign-button:hover {
+  background-color: #c0392b;
+}
+
+/* Add/Edit Campaign Form */
+.campaign-form-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  z-index: 1000; /* Ensure it appears above other content */
+}
+.campaign-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 600px;
+  display:flex;
+  flex-direction:column;
+}
+.form-heading {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #2a3d56;
+}
+
+.form-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus {
+  border-color: #3c8d75;
+}
+
+.form-submit-button {
+  background-color: #3c8d75;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.form-submit-button:hover {
+  background-color: #2b6a55;
+}
+
+.form-cancel-button {
+  background-color: #f44336;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.form-cancel-button:hover {
+  background-color: #d32f2f;
+}
+
+/* Hidden Class */
+.hidden, .hamburger-menu {
+  display: none;
+}
+
+
+
+
+
+
+/* Mobile Version */
+@media (max-width: 768px) {
+  /* Admin Layout */
+  .admin-layout {
+    flex-direction: column;
+  }
+.hamburger-menu{
+	display:block;
+	z-index:9999;
+}
+  /* Sidebar */
+  .admin-sidebar {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 100%;
+    background-color: #1f2b3d;
+	display:none;
+  }.admin-sidebar {
+    display: none; /* Ensure it's hidden initially */
+    transition: all 0.3s ease; /* Optional: Smooth transition */
+}
+
+.admin-sidebar.active {
+    display: block;
+}
+
+  .sidebar-menu {
+    padding-top: 60px;
+  }
+
+  .sidebar-item {
+    margin-bottom: 15px;
+  }
+
+  .sidebar-link {
+    padding: 10px 20px;
+    font-size: 16px;
+	color:#fff;
+  }
+
+  /* Admin Header */
+  .admin-header {
+    padding: 15px 20px;
+	z-index:9999;
+	text-align:center;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+  }
+
+  .admin-heading {
+    font-size: 14px;
+	max-width:80%;
+  }
+
+  /* Content Area */
+  .admin-content {
+    padding: 15px;
+  }
+
+  .campaigns-header {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .campaigns-heading {
+    font-size: 20px;
+	color:#fff;
+	z-index:999;
+  }
+
+  .add-campaign-button {
+    font-size: 16px;
+    padding: 8px 12px;
+    margin-top: 10px;
+	color:#fff;
+	
+  }
+
+  /* Campaign List */
+  .campaigns-list {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .campaign-item {
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  .campaign-title {
+    font-size: 16px;
+  }
+
+  .campaign-description {
+    font-size: 12px;
+  }
+
+  .campaign-image {
+    height: 150px;
+  }
+
+  .edit-campaign-button,
+  .delete-campaign-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  /* Form */
+  .campaign-form-container {
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  .form-heading {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .form-label {
+    font-size: 12px;
+  }
+
+  .form-input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .form-submit-button,
+  .form-cancel-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  /* Hide Sidebar on Mobile by Default */
+  .sidebar-menu {
+    display: none;
+  }
+
+  /* Button for opening Sidebar */
+  .sidebar-toggle-button {
+    display: block;
+    background-color: #2a3d56;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  /* Display Sidebar when toggled */
+  .admin-sidebar.active {
+    display: block;
+  }
+}
