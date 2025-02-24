@@ -930,13 +930,33 @@ function toggleMenu() {
 </section>
 
 
+<div data-type="core/list" style="margin-top:30px">
+    <ul class="wp-block-list category-list">
+      
+    </ul>
+</div>  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        fetch("https://blogs-admin-editor.vercel.app/products")
+            .then(response => response.json())
+            .then(data => {
+                const categories = [...new Set(data.map(item => item.category))]; // Get unique categories
+                const categoryList = document.querySelector(".category-list");
 
-<div data-type="core/list" style="margin-top:30px"><ul class="wp-block-list">
-<li><b>categories to render</b></li>
-
-</ul>
-</div>
-
+                categories.forEach(category => {
+                    const formattedCategory = category.replace(/([A-Z])/g, ' $1').trim(); // Add space before capital letters
+                    
+                    const li = document.createElement("li");
+                    li.textContent = formattedCategory;
+                    li.style.cursor = "pointer";
+                    li.onclick = () => {
+                        window.location.href = `product-details.html?category=${encodeURIComponent(category)}`;
+                    };
+                    categoryList.appendChild(li);
+                });
+            })
+            .catch(error => console.error("Error fetching categories:", error));
+    });
+</script>
 			  
               <section class="spacing-section scroll-offset" style="background-color: transparent" id="anchor-f3fba544-36c2-47f3-b79a-443607a8e1e5">
     <div class="pt-13 md:pt-14 lg:pt-16"></div>
