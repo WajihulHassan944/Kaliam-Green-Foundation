@@ -985,11 +985,14 @@ function toggleMenu() {
                 filteredProducts.forEach(product => {
                     // Format description: Make labels bold and start text on the next line
                     let formattedDesc = product.description
-                        .replace(/Recipe:/g, "<br><b>Recipe:</b><br>")
-                        .replace(/Ingredients:/g, "<br><b>Ingredients:</b><br>")
+                    .replace(/Recipe:/g, "<br><b>Recipe:</b><br>")
+                    .replace(/⦁/g, "<br>• ") // Convert bullet points
+                     .replace(/Ingredients:/g, "<br><b>Ingredients:</b><br>")
                         .replace(/Instructions:/g, "<br><br><b>Instructions:</b><br>")
-                        .replace(/Benefits:/g, "<br><br><b>Benefits:</b><br>")
-                        .replace(/Urdu:/g, "<br><br><b>Urdu:</b><br>");
+                        .replace(/How to Use \(English\):/g, "<br><br><b>How to Use (English):</b><br>")
+                        .replace(/How to Use \(Urdu\):/g, "<br><br><b>How to Use (Urdu):</b><br>")
+                        .replace(/Benefits:/g, "<br><br><b>Benefits:</b><br>");
+
 
                     const productDiv = document.createElement("div");
                     productDiv.classList.add("product");
